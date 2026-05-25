@@ -1,8 +1,8 @@
 fastapi
+httpx
 uvicorn[standard]
 streamlit
 requests
 pandas
 numpy
 scikit-learn
-
