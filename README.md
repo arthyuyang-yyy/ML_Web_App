@@ -111,6 +111,6 @@ The workflow in `.github/workflows/task1-local-deployment.yml` lets GitHub run t
 1. install dependencies
 2. train the UFO model
 3. run the local model smoke test
-4. import the FastAPI app
+4. call the FastAPI `/predict` endpoint with a sample payload
 
 The generated model file is intentionally ignored by git. It is rebuilt in CI and can also be rebuilt locally with `python model/train_model.py`.
