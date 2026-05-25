@@ -30,4 +30,6 @@ jobs:
         run: python scripts/smoke_test.py
 
       - name: Test FastAPI prediction endpoint
+        env:
+          PYTHONPATH: .
         run: python scripts/api_test.py
